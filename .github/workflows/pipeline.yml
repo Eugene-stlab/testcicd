@@ -25,6 +25,6 @@ jobs:
         run: |
           git config --global user.email "razrab-hm@hash-maker.com"
           git config --global user.name "razrab-hm"
-          git remote set-url origin git@github.com:razrab-hm/test.git
+          git remote add origin2 git@github.com:razrab-hm/test.git
           git commit -am "Automated report"
-          git push
+          git push -u origin2 main
