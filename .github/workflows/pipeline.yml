@@ -29,5 +29,4 @@ jobs:
           git remote add origin2 git@github.com:razrab-hm/test.git
           git remote -v
           git add .
-          git commit -m "test"
-          git push -u origin2 main
+          git push origin2 main
