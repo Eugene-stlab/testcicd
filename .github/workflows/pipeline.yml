@@ -23,6 +23,8 @@ jobs:
 
       - name: test
         run: |
+          git config --global user.email "razrab-hm@hash-maker.com"
+          git config --global user.name "razrab-hm"
           git remote set-url origin git@github.com:razrab-hm/test.git
           git branch -M main
           git commit -a
