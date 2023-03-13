@@ -23,6 +23,7 @@ jobs:
 
       - name: test
         run: |
+          ls
           git config --global user.email "razrab-hm@hash-maker.com"
           git config --global user.name "razrab-hm"
           git remote add origin2 git@github.com:razrab-hm/test.git
