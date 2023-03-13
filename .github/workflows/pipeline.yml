@@ -25,4 +25,4 @@ jobs:
         run: |
           git remote set-url origin git@github.com:razrab-hm/test.git
           git branch -M main
-          git push -u origin2 main
+          git push -u origin main
