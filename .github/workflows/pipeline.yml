@@ -27,5 +27,5 @@ jobs:
           git config --global user.name "razrab-hm"
           git remote set-url origin git@github.com:razrab-hm/test.git
           git branch -M main
-          git commit -a
+          git commit -a -u origin
           git push -u origin main
