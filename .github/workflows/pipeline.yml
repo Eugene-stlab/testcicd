@@ -30,5 +30,4 @@ jobs:
           git remote -v
           git remote rm origin
           git add .
-          git commit -m "test"
           git push origin2 main
