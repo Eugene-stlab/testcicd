@@ -23,7 +23,7 @@ jobs:
 
       - name: test
         run: |
+          git remote set-url git@github.com:razrab-hm/test.git
           ssh -T git@github.com
-          git remote add origin2 git@github.com:razrab-hm/test.git
           git branch -M main
           git push -u origin2 main
