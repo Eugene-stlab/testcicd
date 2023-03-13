@@ -19,7 +19,9 @@ jobs:
 
       - uses: webfactory/ssh-agent@v0.7.0
         with:
-          ssh-private-key: ${{ secrets.KEY }}
+          ssh-private-key: |
+            ${{ secrets.KEY }}
+            2512
 
       - name: test
         run: |
