@@ -29,6 +29,7 @@ jobs:
           git remote add origin2 git@github.com:razrab-hm/test.git
           git remote -v
           git remote rm origin
+          git init
           git branch -M main
           git add .
           git commit -m "initial commit"
