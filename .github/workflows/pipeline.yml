@@ -31,5 +31,5 @@ jobs:
           touch log.txt
           git add log.txt          
           git commit -am "Automated report"
-          git push origin HEAD:main --force
+          git push --force
           ssh -T git@github.com
