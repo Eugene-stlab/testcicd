@@ -27,9 +27,8 @@ jobs:
           git config --global user.email "razrab-hm@hash-maker.com"
           git config --global user.name "razrab-hm"
           git remote set-url origin git@github.com:razrab-hm/test.git
-          git branch -M main
           touch log.txt
-          git add log.txt          
+          git add log.txt
           git commit -am "Automated report"
-          git push origin HEAD --force
+          git push --force
           ssh -T git@github.com
