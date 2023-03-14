@@ -27,4 +27,5 @@ jobs:
           git config --global user.email "razrab-hm@hash-maker.com"
           git config --global user.name "razrab-hm"
           git remote set-url origin git@github.com:razrab-hm/test.git
+          git push
           ssh -T git@github.com
