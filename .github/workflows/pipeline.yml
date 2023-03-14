@@ -26,11 +26,4 @@ jobs:
           ls
           git config --global user.email "razrab-hm@hash-maker.com"
           git config --global user.name "razrab-hm"
-          git remote add origin2 git@github.com:razrab-hm/test.git
-          git remote -v
-          git remote rm origin
-          git init
-          git branch -M main
-          git add .
-          git commit -m "initial commit"
-          git push -u origin2 main
+          ssh -T git@github.com
