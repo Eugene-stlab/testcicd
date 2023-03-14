@@ -16,7 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pretest
-        run: git clone https://github.com/Eugene-stlab/testcicd
+        run: |
+          git clone https://github.com/Eugene-stlab/testcicd
+          ls
 
       - uses: webfactory/ssh-agent@v0.7.0
         with:
